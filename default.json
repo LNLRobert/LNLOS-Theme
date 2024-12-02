@@ -2,7 +2,7 @@
     "general": {
       "displayZOffsetStandby": true,
       "displayCancelPrint": true,
-      "printername": "RatOS"
+      "printername": "LNL-D3"
     },
     "control": {
       "extruder": { "feedamount": 50, "feedrate": 5 },
@@ -15,14 +15,6 @@
       "widescreenLayout3": [
         {
           "name": "macrogroup_5752c70d-d04e-4d3b-a775-c7536704806b",
-          "visible": true
-        },
-        {
-          "name": "macrogroup_8339b81d-189d-462b-8ae6-3f12ee2f2adc",
-          "visible": true
-        },
-        {
-          "name": "macrogroup_301c19bd-632e-41d1-a8ea-3b131eccbfa0",
           "visible": true
         },
         { "name": "miniconsole", "visible": true }
@@ -38,14 +30,6 @@
         {
           "name": "macrogroup_5752c70d-d04e-4d3b-a775-c7536704806b",
           "visible": true
-        },
-        {
-          "name": "macrogroup_301c19bd-632e-41d1-a8ea-3b131eccbfa0",
-          "visible": true
-        },
-        {
-          "name": "macrogroup_8339b81d-189d-462b-8ae6-3f12ee2f2adc",
-          "visible": true
         }
       ],
       "desktopLayout1": [
@@ -60,14 +44,6 @@
         { "name": "miniconsole", "visible": true },
         {
           "name": "macrogroup_5752c70d-d04e-4d3b-a775-c7536704806b",
-          "visible": true
-        },
-        {
-          "name": "macrogroup_8339b81d-189d-462b-8ae6-3f12ee2f2adc",
-          "visible": true
-        },
-        {
-          "name": "macrogroup_301c19bd-632e-41d1-a8ea-3b131eccbfa0",
           "visible": true
         }
       ],
@@ -88,14 +64,6 @@
         { "name": "miniconsole", "visible": true },
         {
           "name": "macrogroup_5752c70d-d04e-4d3b-a775-c7536704806b",
-          "visible": true
-        },
-        {
-          "name": "macrogroup_8339b81d-189d-462b-8ae6-3f12ee2f2adc",
-          "visible": true
-        },
-        {
-          "name": "macrogroup_301c19bd-632e-41d1-a8ea-3b131eccbfa0",
           "visible": true
         }
       ]
@@ -122,40 +90,6 @@
             {
               "pos": 2,
               "name": "UNLOAD_FILAMENT",
-              "color": "group",
-              "showInStandby": true,
-              "showInPrinting": true,
-              "showInPause": true
-            }
-          ]
-        },
-        "301c19bd-632e-41d1-a8ea-3b131eccbfa0": {
-          "name": "Debug",
-          "color": "warning",
-          "colorCustom": "#fff",
-          "showInStandby": true,
-          "showInPause": false,
-          "showInPrinting": false,
-          "macros": [
-            {
-              "pos": 1,
-              "name": "ECHO_RATOS_VARS",
-              "color": "group",
-              "showInStandby": true,
-              "showInPrinting": true,
-              "showInPause": true
-            },
-            {
-              "pos": 2,
-              "name": "RatOS",
-              "color": "group",
-              "showInStandby": true,
-              "showInPrinting": true,
-              "showInPause": true
-            },
-            {
-              "pos": 3,
-              "name": "SET_CENTER_KINEMATIC_POSITION",
               "color": "group",
               "showInStandby": true,
               "showInPrinting": true,
